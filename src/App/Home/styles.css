@@ -1,0 +1,10 @@
+.main {
+	height: 3000px;
+	position: relative;
+	font-family: Raleway, sans-serif;
+}
+
+.main > .main-item {
+	position: fixed;
+	z-index: 1000;
+}
