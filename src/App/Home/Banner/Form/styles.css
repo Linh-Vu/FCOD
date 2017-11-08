@@ -1,0 +1,97 @@
+/** set template **/
+
+.row, .content-row {
+  width: 100%;
+  display: flex;
+  margin: 6px 0;
+}
+
+.content-row {
+  height: 42px;
+}
+
+.col-100 {
+  width: 100%;
+}
+
+.col-60 {
+  width: 60%;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.col-40 {
+  width: 40%;
+}
+
+.col-30 {
+  width: 30%;
+}
+
+.col-20 {
+  width: 20%;
+}
+
+/*************/
+.banner-right-form {
+
+}
+
+.banner-right-form-header {
+  background-color: #43cb83;
+  border-radius: 4px 4px 0 0;
+  margin-bottom: 36px;
+}
+
+.banner-right-form-header label {
+  width: 50%;
+  text-align: center;
+  font-size: 36px;
+  color: #fff;
+}
+
+.banner-right-form-footer {
+  justify-content: center;
+  margin-bottom: 36px;
+}
+
+.banner-right-form-content input,
+.banner-right-form-content select {
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 4px #EBEBEB;
+  -moz-box-shadow: 1px 1px 4px #EBEBEB;
+  -webkit-box-shadow: 1px 1px 4px #EBEBEB;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  outline: none;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+}
+
+.banner-right-form-content input:focus,
+.banner-right-form-content select:focus {
+  border-radius: 4px;
+  border: 1px solid #0C0;
+  box-shadow: 0 0 5px #0C0;
+}
+
+.banner-right-form-footer button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.banner-right-form-footer button[type="submit"]:hover {
+  background-color: #45a049;
+  box-shadow: 0 0 10px #45a049;
+}
