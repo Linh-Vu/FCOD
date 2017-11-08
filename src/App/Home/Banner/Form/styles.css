@@ -3,7 +3,6 @@
 .row, .content-row {
   width: 100%;
   display: flex;
-  margin: 6px 0;
 }
 
 .content-row {
@@ -36,25 +35,26 @@
 
 /*************/
 .banner-right-form {
-
+  border-radius: 4px 4px 0 0;
+  border: solid 1px #43cb83;
 }
 
 .banner-right-form-header {
   background-color: #43cb83;
-  border-radius: 4px 4px 0 0;
   margin-bottom: 36px;
 }
 
 .banner-right-form-header label {
-  width: 50%;
+  margin-top: 16px;
   text-align: center;
-  font-size: 36px;
+  font-size: 30px;
+  height: 48px;
   color: #fff;
 }
 
 .banner-right-form-footer {
   justify-content: center;
-  margin-bottom: 36px;
+  margin: 36px 0;
 }
 
 .banner-right-form-content input,
@@ -94,4 +94,8 @@
 .banner-right-form-footer button[type="submit"]:hover {
   background-color: #45a049;
   box-shadow: 0 0 10px #45a049;
+}
+
+.content-row {
+  margin: 8px 0;
 }

@@ -8,8 +8,9 @@ const FormView = () => {
   return (
     <form className="banner-right-form">
       <div className="banner-right-form-header row">
-        <label className="col-50">Nơi Nhận</label>
-        <label className="col-50">Nơi Đi</label>
+        <label className="col-50">Nơi nhận</label>
+        <div className="col-20"></div>
+        <label className="col-30">Nơi đến</label>
       </div>
       <div className="banner-right-form-content row">
         <div className="start col-50">
