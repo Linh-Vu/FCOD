@@ -19,7 +19,7 @@ const FormView = () => {
       </div>
 
       <div className="banner-right-form-content row">
-        <div className="start col-50">
+        <div className="col-50">
           <div className="content-row">
             <SelectBox options={[]} label={'Tỉnh/TP *:'}/>
             {/*<label className="col-40">TP/Tỉnh :</label>*/}
@@ -47,8 +47,10 @@ const FormView = () => {
             <input className="col-60" placeholder="giá trị của món hàng..." type="number"></input>
           </div>
         </div>
-        <div className="direction col-20"></div>
-        <div className="end col-30">
+        <div className="col-20">
+          <div className="banner-right-form-direction"></div>
+        </div>
+        <div className="col-30">
           <div className="content-row">
             <SelectBox options={[]}/>
             {/*<select className="col-100">*/}

@@ -3,7 +3,6 @@
 .row, .content-row {
   width: 100%;
   display: flex;
-  align-items: baseline;
 }
 
 .col-100 {
@@ -32,23 +31,15 @@
 
 /*************/
 .banner-right-form {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: lighter;
-}
-
-.banner-right-form-header {
-  background-color: #43cb83;
-  margin-bottom: 18px;
-  border-radius: 4px 4px 0 0;
-  height: 48px;
 }
 
 .banner-right-form-header label {
   text-align: center;
-  font-size: 24px;
+  font-size: 18px;
   height: 36px;
-  color: #fff;
-  margin-top: 8px;
+  color: #5c5c5c;
 }
 
 .banner-right-form-footer {
@@ -106,6 +97,18 @@
   margin: 16px 0;
 }
 
+.content-row {
+  align-items: baseline;
+}
+
 .content-row label {
   color: #5c5c5c;
+}
+
+.banner-right-form-direction {
+  height: 10px;
+  margin: 42px 16px 0 16px;
+  border-bottom: solid 2px #5c5c5c;
+  border-right: solid 2px #5c5c5c;
+  transform: skewX(40deg)
 }
