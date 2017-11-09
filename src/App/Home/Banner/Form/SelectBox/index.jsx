@@ -5,18 +5,18 @@ import './styles.css';
 
 const SelectBox = ({options, label}) => {
   return (
-    <div className="select-main">
+    <div className="row">
       {label ?
         <div className="row">
           <label className="col-40">{label}</label>
-          <select className="default col-60">
+          <select className="col-60">
             {options.map((item, index) =>
               <option key={index}>{item}</option>
             )}
           </select>
         </div>
         :
-        <select className="default col-100">
+        <select className="col-100">
           {options.map((item, index) =>
             <option key={index}>{item}</option>
           )}

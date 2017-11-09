@@ -97,7 +97,7 @@
   margin: 16px 0;
 }
 
-.content-row {
+.banner-right-form-content .content-row {
   align-items: baseline;
 }
 
@@ -106,9 +106,9 @@
 }
 
 .banner-right-form-direction {
-  height: 10px;
-  margin: 42px 16px 0 16px;
+  height: 6px;
+  margin: 48px 30px 0 30px;
   border-bottom: solid 2px #5c5c5c;
-  border-right: solid 2px #5c5c5c;
+  border-right: solid 4px #5c5c5c;
   transform: skewX(40deg)
 }
