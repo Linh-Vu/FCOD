@@ -12,15 +12,17 @@ const FormView = () => {
         <div className="col-20"></div>
         <label className="col-30">Nơi đến</label>
       </div>
+
       <div className="banner-right-form-content row">
         <div className="start col-50">
           <div className="content-row">
-            <label className="col-40">TP/Tỉnh :</label>
-            <select className="col-60">
-              <option value="hcm">Hồ Chí Minh</option>
-              <option value="hn">Hà Nội</option>
-              <option value="dn">Đà Nẵng</option>
-            </select>
+            <SelectBox options={[]} label={'Tỉnh/TP *:'} />
+            {/*<label className="col-40">TP/Tỉnh :</label>*/}
+            {/*<select className="col-60">*/}
+              {/*<option value="hcm">Hồ Chí Minh</option>*/}
+              {/*<option value="hn">Hà Nội</option>*/}
+              {/*<option value="dn">Đà Nẵng</option>*/}
+            {/*</select>*/}
           </div>
           <div className="content-row">
             <label className="col-40">Quận/Huyện :</label>
