@@ -51,6 +51,7 @@
 .banner-right-form-content select {
   height: 30px;
   background-color: rgba(246, 246, 246, 1);
+  padding: 0 10px;
   border-radius: 4px;
   box-sizing: border-box;
   border: 1px solid #ccc;
@@ -94,20 +95,26 @@
 }
 
 .banner-right-form-content .content-row {
-  margin: 16px 0;
-}
-
-.banner-right-form-content .content-row {
-  align-items: baseline;
+  margin: 8px 0;
 }
 
 .content-row label {
   color: #5c5c5c;
 }
 
+.content-row {
+  align-items: baseline;
+}
+
 .banner-right-form-direction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.direction {
   height: 6px;
-  margin: 48px 30px 0 30px;
+  margin: 0 30px;
   border-bottom: solid 2px #5c5c5c;
   border-right: solid 4px #5c5c5c;
   transform: skewX(40deg)
