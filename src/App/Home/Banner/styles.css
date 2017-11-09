@@ -29,3 +29,7 @@
 .banner-content-right {
 	width: 50%;
 }
+
+.banner-content > .banner-content-right {
+	margin-top: 120px;
+}

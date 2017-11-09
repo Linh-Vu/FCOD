@@ -3,10 +3,7 @@
 .row, .content-row {
   width: 100%;
   display: flex;
-}
-
-.content-row {
-  height: 42px;
+  align-items: baseline;
 }
 
 .col-100 {
@@ -35,21 +32,23 @@
 
 /*************/
 .banner-right-form {
-  border-radius: 4px 4px 0 0;
-  border: solid 1px #43cb83;
+  font-size: 12px;
+  font-weight: lighter;
 }
 
 .banner-right-form-header {
   background-color: #43cb83;
-  margin-bottom: 36px;
+  margin-bottom: 18px;
+  border-radius: 4px 4px 0 0;
+  height: 48px;
 }
 
 .banner-right-form-header label {
-  margin-top: 16px;
   text-align: center;
-  font-size: 30px;
-  height: 48px;
+  font-size: 24px;
+  height: 36px;
   color: #fff;
+  margin-top: 8px;
 }
 
 .banner-right-form-footer {
@@ -59,6 +58,8 @@
 
 .banner-right-form-content input,
 .banner-right-form-content select {
+  height: 30px;
+  background-color: rgba(246, 246, 246, 1);
   border-radius: 4px;
   box-sizing: border-box;
   border: 1px solid #ccc;
@@ -77,25 +78,34 @@
 
 .banner-right-form-content input:focus,
 .banner-right-form-content select:focus {
+  background-color: #fff;
   border-radius: 4px;
   border: 1px solid #0C0;
   box-shadow: 0 0 5px #0C0;
 }
 
 .banner-right-form-footer button[type="submit"] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
+  height: 46px;
+  background-color: rgba(67, 203, 131, 1);
+  color: #fff;
+  padding: 0 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-size: 18px;
 }
 
 .banner-right-form-footer button[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #fff;
+  color: rgba(67, 203, 131, 1);
   box-shadow: 0 0 10px #45a049;
+  border: solid 2px rgba(67, 203, 131, 1);
 }
 
-.content-row {
-  margin: 8px 0;
+.banner-right-form-content .content-row {
+  margin: 16px 0;
+}
+
+.content-row label {
+  color: #5c5c5c;
 }
