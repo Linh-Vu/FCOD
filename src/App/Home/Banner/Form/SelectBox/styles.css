@@ -2,11 +2,12 @@
 	width: 100%;
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 	justify-content: space-between;
 }
 
 
-/*.default {*/
-	/*width: 166px;*/
-	/*height: 24px;*/
-/*}*/
+.default {
+	width: 166px;
+	height: 24px;
+}
