@@ -4,10 +4,21 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
+	margin: 12px 0;
 }
 
 
-.default {
+.select-default {
 	width: 166px;
-	height: 24px;
+	height: 26px;
+  background-color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #43cb83;
+  border-radius: 4px;
+}
+
+.select-main label {
+  font-weight: 500;
+  color: #43cb83;
 }

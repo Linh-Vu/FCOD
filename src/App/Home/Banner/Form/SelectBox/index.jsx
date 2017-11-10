@@ -7,7 +7,7 @@ const SelectBox = ({options, label}) => {
   return (
     <div className="select-main">
       {!!label && <label>{label}</label>}
-      <select className="default">
+      <select className="select-default">
         {options.map((item, index) =>
           <option key={index}>{item}</option>
         )}
