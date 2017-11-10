@@ -40,7 +40,7 @@ const FormView = () => {
       </div>
 
       <div className="banner-right-form-footer">
-        <button type="submit">send</button>
+        <button type="submit">Tạo Đơn Hàng</button>
       </div>
     </form>
   )
