@@ -1,0 +1,23 @@
+.input-main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 12px 0
+}
+
+.input-default {
+  width: 166px;
+  height: 24px;
+  padding: 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #43cb83;
+  border-radius: 4px;
+}
+
+.input-main {
+  font-weight: 500;
+  color: #43cb83;
+}

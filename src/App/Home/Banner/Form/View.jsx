@@ -1,63 +1,46 @@
 import React from 'react';
 
-import './styles.css';
 import SelectBox from './SelectBox';
+import InputText from './InputText';
 import resource from './resources';
+import './styles.css';
 
 const FormView = () => {
   return (
     <form className="banner-right-form">
-      <div className="banner-right-form-header row">
-        <label className="col-50">Nơi Nhận</label>
-        <label className="col-50">Nơi Đi</label>
+      <div className="banner-right-form-header">
+        <h4>Nơi đi</h4>
+        <h4>Nơi đến</h4>
       </div>
-      <div className="banner-right-form-content row">
-        <div className="col-50">
-          <div className="content-row">
-            <label className="col-25">TP/Tỉnh :</label>
-            <select className="col-75">
-              <option value="hcm">Hồ Chí Minh</option>
-              <option value="hn">Hà Nội</option>
-              <option value="dn">Đà Nẵng</option>
-            </select>
+
+      <div className="banner-right-form-content">
+        <div className="banner-right-form-content-row">
+          <div className="banner-right-from">
+            <SelectBox options={[]} label={'Tỉnh / TP *:'}/>
+            <SelectBox options={[]} label={'Quận / Huyện *:'}/>
           </div>
-          <div className="content-row">
-            <label className="col-25">Quận/Huyện :</label>
-            <select className="col-75">
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-            </select>
+
+          <div className="banner-right-form-direction">
+            <div className="direction" />
+            <div className="direction" />
           </div>
-          <div className="content-row">
-            <label className="col-25">Cân Nặng :</label>
-            <input className="col-75" type="number"></input>
-          </div>
-          <div className="content-row">
-            <label className="col-25">Giá trị :</label>
-            <input className="col-75" type="number"></input>
+
+          <div>
+            <SelectBox options={[]}/>
+            <SelectBox options={[]}/>
           </div>
         </div>
-        <div className="col-20"></div>
-        <div className="col-30">
-          <div className="content-row">
-            <select>
-              <option value="hcm">Hồ Chí Minh</option>
-              <option value="hn">Hà Nội</option>
-              <option value="dn">Đà Nẵng</option>
-            </select>
-          </div>
-          <div className="content-row">
-            <select>
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-            </select>
+
+        <div className="banner-right-form-content-row">
+          <div className="banner-right-form-input-value">
+            <InputText label="Cân nặng *:" />
+            <InputText label="Giá trị *:" />
           </div>
         </div>
       </div>
-      <div className="banner-right-form-footer row">
-        <button type="submit"> send</button>
+
+      <div className="banner-right-form-footer">
+        <button type="submit">Tạo Đơn Hàng</button>
       </div>
     </form>
   )

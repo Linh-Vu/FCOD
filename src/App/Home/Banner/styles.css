@@ -29,3 +29,10 @@
 .banner-content-right {
 	width: 50%;
 }
+
+.banner-content > .banner-content-right {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
