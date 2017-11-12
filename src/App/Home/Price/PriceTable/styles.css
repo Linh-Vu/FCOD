@@ -1,0 +1,27 @@
+.price-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.price-table td,
+.price-table tr {
+  padding: 6px;
+  border: 1px solid #ddd;
+}
+
+/** head table **/
+.price-table thead th {
+  text-align: center;
+  background-color: #43cb83;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: white;
+}
+
+.price-table tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.price-table tbody tr:hover {
+  background-color: #ddd;
+}
