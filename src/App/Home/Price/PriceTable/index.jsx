@@ -3,7 +3,7 @@ import React from 'react';
 
 import './styles.css';
 
-const PriceTable = ({list}) => {
+const PriceTable = ({ list }) => {
   return (
     <table className="price-table">
       <thead>
@@ -15,14 +15,13 @@ const PriceTable = ({list}) => {
       </thead>
 
       <tbody>
-      {/*example */}
-      {list.map((item, index) =>
-        <tr>
-          <td className="title-left">Laughing Bacchus Winecellars</td>
-          <td>Yoshi Tannamuri</td>
-          <td>Canada</td>
-        </tr>
-      )}
+        {list.map((item, index) =>
+          <tr key={index}>
+            <td className={item.type === 'left' && 'title-left'}>{item.title}</td>
+            <td>{item.price}</td>
+            <td>{!!item.time && `${item.time} giờ`}</td>
+          </tr>
+        )}
       </tbody>
     </table>
   )
