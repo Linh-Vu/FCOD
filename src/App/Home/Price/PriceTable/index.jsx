@@ -18,8 +18,8 @@ const PriceTable = ({ list }) => {
         {list.map((item, index) =>
           <tr key={index}>
             <td className={item.type === 'left' && 'title-left'}>{item.title}</td>
-            <td>{item.price}</td>
-            <td>{!!item.time && `${item.time} giờ`}</td>
+            <td className="content">{item.price}</td>
+            <td className="content">{!!item.time && `${item.time} giờ`}</td>
           </tr>
         )}
       </tbody>

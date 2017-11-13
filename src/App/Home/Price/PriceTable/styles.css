@@ -17,18 +17,22 @@
 .price-table thead th {
   text-align: center;
   background-color: #43cb8326;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding: 16px 0 !important;
   color: #43cb83;
   border: 1px solid #43cb8345;
-
 }
 
 .price-table tbody {
   text-align: right;
 }
-.price-table tbody .title-left{
+
+.price-table tbody .title-left {
   text-align: left;
   font-weight: 500;
   color: #43cb83;
 }
+
+.price-table tbody .content {
+  font-size: 14px;
+}
+
