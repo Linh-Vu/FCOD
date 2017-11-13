@@ -7,7 +7,7 @@
 .price-table td,
 .price-table tr {
   padding: 6px 12px;
-  border: 1px solid #43cb83;
+  border: 1px solid #43cb8345;
   background-color: white;
 
 }
@@ -19,7 +19,7 @@
   padding-top: 12px;
   padding-bottom: 12px;
   color: #29663d;
-  border: 1px solid #43cb83;
+  border: 1px solid #43cb8345;
 
 }
 
@@ -28,4 +28,6 @@
 }
 .price-table tbody .title-left{
   text-align: left;
+  font-weight: 500;
+  color: #43cb83;
 }
