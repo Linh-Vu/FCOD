@@ -6,7 +6,7 @@ class Price extends React.Component {
 	render() {
 		return (
 			<View />
-		)
+		);
 	}
 }
 
