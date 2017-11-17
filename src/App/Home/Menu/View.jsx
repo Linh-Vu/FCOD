@@ -22,7 +22,7 @@ const MenuView = ({ setNode, goto }) => {
 				<ul className="top-menu-right-content">
           {menu.map((item, index) => (
             <li key={index} className="top-menu-right-content-item">
-              <a href={item.link} onClick={() => goto(item.position)} >{item.title}</a>
+							<span onClick={() => goto(item.position)} >{item.title}</span>
             </li>
           ))}
 				</ul>

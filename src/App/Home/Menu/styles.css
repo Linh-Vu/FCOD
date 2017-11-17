@@ -33,7 +33,7 @@
 	cursor: pointer;
 }
 
-.top-menu-right-content-item a {
+.top-menu-right-content-item span {
 	margin: 0 30px;
 	font-weight: 700;
 	font-size: 15px;
@@ -48,6 +48,6 @@
 	justify-content: center;
 }
 
-.top-menu-right-content-item a:hover {
+.top-menu-right-content-item span:hover {
 	color: #43cb83 !important;
 }

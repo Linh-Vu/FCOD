@@ -11,39 +11,45 @@ class Menu extends React.Component {
   }
 
   goto(value) {
-    setTimeout(() => {
-      let current = window.scrollY;
+
+    let current = window.scrollY;
+
+    let s = () => {
+      console.log('value:' + value);
+      console.log('current:' + current);
       if (current < value) {
-        for (current; current <= value; current++) {
-          window.scrollTo(0, current);
-        }
-      } else {
-        for (current; current >= value; current--) {
-          window.scrollTo(0, current);
-        }
+        current++;
       }
-    }, value)
+      if (current > value) {
+        current--;
+      }
+    };
+    while (value !== current) {
+      setTimeout(s, 1);
+    }
   }
+
 
   setNode(node) {
     this.node = node;
   }
 
-	componentDidMount() {
-		window.addEventListener('scroll', () => {
-			if (window.scrollY >= 42) {
-			  this.node.style.position = 'fixed';
-			  this.node.style.top = 0;
+  componentDidMount() {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY >= 42) {
+        this.node.style.position = 'fixed';
+        this.node.style.top = 0;
       } else {
         this.node.style.position = 'inherit';
       }
-		});
-	}
-	render() {
-		return (
-			<View setNode={this.setNode} goto={this.goto} />
-		)
-	}
+    });
+  }
+
+  render() {
+    return (
+      <View setNode={this.setNode} goto={this.goto}/>
+    )
+  }
 }
 
 export default Menu;
