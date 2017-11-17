@@ -1,3 +1,4 @@
+import T from 'prop-types';
 import React from 'react';
 
 import './styles.css';
@@ -5,15 +6,15 @@ import './styles.css';
 import logo from './image/logo.png';
 
 const menu = [
-	{ link: '#', title: 'Trang Chủ' },
-	{ link: '#', title: 'Dịch Vụ' },
-	{ link: '#', title: 'Bảng Giá' },
-	{ link: '#', title: 'Liên Hệ' },
+	{ link: '#', title: 'Trang Chủ', position: 0 },
+	{ link: '#', title: 'Dịch Vụ', position: 675 },
+	{ link: '#', title: 'Bảng Giá', position: 1040 },
+	{ link: '#', title: 'Liên Hệ', position: 3235 },
 ];
 
-const MenuView = () => {
+const MenuView = ({ setNode, goto }) => {
 	return (
-		<div className="top-menu">
+		<div ref={setNode} className="top-menu">
 			<div className="top-menu-left">
         <img src={logo} height={48} alt="logo" />
       </div>
@@ -21,13 +22,18 @@ const MenuView = () => {
 				<ul className="top-menu-right-content">
           {menu.map((item, index) => (
             <li key={index} className="top-menu-right-content-item">
-              <a href={item.link}>{item.title}</a>
+							<span onClick={() => goto(item.position)} >{item.title}</span>
             </li>
           ))}
 				</ul>
 			</div>
 		</div>
 	)
+};
+
+MenuView.propTypes = {
+	setNode: T.func.isRequired,
+	goto: T.func.isRequired,
 };
 
 export default MenuView;
