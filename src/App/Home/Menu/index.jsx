@@ -1,4 +1,5 @@
 import React from 'react';
+import animateScrollTo from 'animated-scroll-to';
 
 import View from './View';
 
@@ -12,40 +13,7 @@ class Menu extends React.Component {
   }
 
   goto(value) {
-    // let current = Math.floor(window.scrollY);
-    // this.scrollEvent = setInterval(() => {
-    //   console.log('value:' + value);
-    //   if (current < value) {
-    //     current = current + 1;
-    //   }
-    //   if (current > value) {
-    //     current = current - 1;
-    //   }
-    //   window.scrollTo(0, current);
-    //   if (value === current) {
-    //     console.log('clear true');
-    //     clearInterval(this.scrollEvent);
-    //   }
-    this.scrollEvent(value);
-
-  }
-
-  scrollEvent (value) {
-    let current = Math.floor(window.scrollY);
-
-    if (current < value) {
-      current = current++;
-    }
-    if (current > value) {
-      current = current--;
-    }
-    window.scrollTo(0, current);
-    if ( current !== value ) {
-      setTimeout(this.scrollEvent(value), 1);
-    }
-    if ( current === value ) {
-      return;
-    }
+    animateScrollTo(value);
   }
 
   setNode(node) {
