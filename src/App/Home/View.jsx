@@ -14,7 +14,7 @@ import './styles.css';
 const HomeView = () => {
   return (
 		<div className="main">
-			<section>
+			<section id="home">
 				<TopBar />
 			</section>
 
@@ -26,7 +26,7 @@ const HomeView = () => {
 				<Banner />
 			</section>
 
-			<section>
+			<section id="service">
 				<Description />
 			</section>
 
@@ -34,7 +34,7 @@ const HomeView = () => {
 				<Delivery />
 			</section>
 
-			<section>
+			<section id="price-table">
 				<Price />
 			</section>
 
@@ -42,7 +42,7 @@ const HomeView = () => {
 				<Marketing />
 			</section>
 
-			<section>
+			<section id="contact">
 				<Footer />
 			</section>
 		</div>

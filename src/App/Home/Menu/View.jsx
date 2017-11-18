@@ -6,10 +6,10 @@ import './styles.css';
 import logo from './image/logo.png';
 
 const menu = [
-	{ link: '#', title: 'Trang Chủ', position: 0 },
-	{ link: '#', title: 'Dịch Vụ', position: 675 },
-	{ link: '#', title: 'Bảng Giá', position: 1040 },
-	{ link: '#', title: 'Liên Hệ', position: 3235 },
+	{ link: '#', title: 'Trang Chủ', id: 'home' },
+	{ link: '#', title: 'Dịch Vụ', id: 'service' },
+	{ link: '#', title: 'Bảng Giá', id: 'price-table' },
+	{ link: '#', title: 'Liên Hệ', id: 'contact' },
 ];
 
 const MenuView = ({ setNode, goto }) => {
@@ -22,7 +22,7 @@ const MenuView = ({ setNode, goto }) => {
 				<ul className="top-menu-right-content">
           {menu.map((item, index) => (
             <li key={index} className="top-menu-right-content-item">
-							<span onClick={() => goto(item.position)} >{item.title}</span>
+							<span onClick={() => goto(item.id)} >{item.title}</span>
             </li>
           ))}
 				</ul>

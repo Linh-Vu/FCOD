@@ -13,7 +13,8 @@ class Menu extends React.Component {
   }
 
   goto(value) {
-    animateScrollTo(value);
+    const el = document.getElementById(value);
+    animateScrollTo(el.offsetTop - 54);
   }
 
   setNode(node) {
