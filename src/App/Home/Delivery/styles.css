@@ -23,6 +23,7 @@
 
 .delivery-content h2 {
 	color: #eb7012;
+	position: inherit;
 }
 
 .delivery-content > .delivery-content-hr {
