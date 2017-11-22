@@ -26,6 +26,6 @@
 
 .select-default:focus {
   border-radius: 4px;
-  border: 1px solid #89be49;
-  box-shadow: 0 0 5px #89be49;
+  border: 1px solid #43cb83;
+  box-shadow: 0 0 10px #43cb83;
 }
