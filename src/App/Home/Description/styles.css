@@ -17,6 +17,7 @@
 .description-content-left {
 	height: 540px;
 	width: 60%;
+	margin-right: 32px;
 	background-image: url("../image/background-text.jpg");
 	background-size: 100% 100%;
 	display: flex;
