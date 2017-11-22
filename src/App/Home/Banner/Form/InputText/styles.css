@@ -10,14 +10,21 @@
 .input-default {
   width: 166px;
   height: 24px;
-  padding: 0;
-  border-width: 1px;
-  border-style: solid;
-  border-color: #43cb83;
+  padding: 0 6px;
+  border:solid 1px #43cb83;
   border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 4px #EBEBEB;
+  outline: none;
 }
 
 .input-main {
   font-weight: 500;
   color: #43cb83;
+}
+
+.input-default:focus {
+  border-radius: 4px;
+  border: 1px solid #43cb83;
+  box-shadow: 0 0 10px #43cb83;
 }

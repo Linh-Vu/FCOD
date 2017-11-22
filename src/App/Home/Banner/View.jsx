@@ -8,7 +8,9 @@ const BannerView = () => {
 		<div className="banner">
 			<div className="banner-content">
 				<div className="banner-content-left">
-					<div className="banner-content-left-content"></div>
+					<div className="banner-content-left-content">
+						Free Cash On Delivery
+					</div>
 				</div>
 
 				<div className="banner-content-right">
