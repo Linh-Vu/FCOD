@@ -3,7 +3,7 @@ import React from 'react';
 
 import './styles.css';
 
-const PriceTable = ({list}) => {
+const PriceTable = ({ list }) => {
   return (
     <div>
       <div className="price-title">

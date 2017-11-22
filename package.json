@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "animated-scroll-to": "^1.1.7",
     "axios": "^0.17.0",
     "firebase": "^4.5.1",
     "jquery": "^3.2.1",
