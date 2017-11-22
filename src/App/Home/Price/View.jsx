@@ -8,22 +8,19 @@ const list = [
 		title: 'PTN Phát trong nội tỉnh',
 		price: 27500,
 		time: 12,
-		type: 'left',
-    tariffs: 99999
+		type: 'left'
 	},
   {
     title: 'Miễn phí COD',
     price: '',
     time: '',
-    type: 'none',
-    tariffs: ''
+    type: 'none'
   },
   {
     title: 'PTN Phí tổng cộng',
     price: 27500,
     time: '',
-    type: 'none',
-    tariffs: ''
+    type: 'none'
   },
 ];
 

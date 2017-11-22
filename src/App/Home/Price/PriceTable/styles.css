@@ -36,3 +36,22 @@
   font-size: 14px;
 }
 
+.price-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.price-title h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #306940;
+}
+.price-title hr {
+  height: 3px;
+  background-color: #306940;
+  width: 90px;
+  border: none;
+  margin: 12px 0 36px 0;
+}
+
