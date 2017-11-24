@@ -2,7 +2,10 @@ import React from 'react';
 
 import StepImage from './StepImage';
 import './styles.css';
-import image from '../image/background-text.jpg';
+import image1 from './icon/create-new-pencil-button.svg';
+import image2 from './icon/get-gifts.svg';
+import image3 from './icon/sign-out-option.svg';
+import image4 from './icon/give-money.svg';
 
 const DeliveryView = () => {
 	return (
@@ -16,7 +19,7 @@ const DeliveryView = () => {
 				
 				<div className="delivery-content-body">
 					<div className="delivery-content-step">
-						<StepImage image={image} />
+						<StepImage image={image1} />
 						<h2>1. Tạo Đơn</h2>
 						<p>
 							Điền form trên web,nhập <br />
@@ -26,8 +29,8 @@ const DeliveryView = () => {
 					</div>
 					
 					<div className="delivery-content-step">
-						<StepImage image={image} />
-						<h2>2. Giao Hàng</h2>
+						<StepImage image={image2} />
+						<h2>2. Nhận Hàng</h2>
 						<p>
 							Nhận hàng tại shop<br />
 							theo 3 khung giờ<br />
@@ -36,8 +39,8 @@ const DeliveryView = () => {
 					</div>
 					
 					<div className="delivery-content-step">
-						<StepImage image={image} />
-						<h2>3. Nhận Hàng</h2>
+						<StepImage image={image3} />
+						<h2>3. Giao Hàng</h2>
 						<p>
 							Đảm bảo hoàn thành <br />
 							trong thời hạn tùy <br />
@@ -46,7 +49,7 @@ const DeliveryView = () => {
 					</div>
 					
 					<div className="delivery-content-step">
-						<StepImage image={image} />
+						<StepImage image={image4} />
 						<h2>4. Thanh Toán</h2>
 						<p>
 							Chuyển khoản trước <br />
