@@ -25,9 +25,13 @@ class Menu extends React.Component {
     window.addEventListener('scroll', () => {
       if (window.scrollY >= 42) {
         this.node.style.position = 'fixed';
+        this.node.style.backgroundColor = '#323232';
         this.node.style.top = 0;
+        document.getElementsByClassName('banner')[0].style.marginTop = '54px';
       } else {
         this.node.style.position = 'inherit';
+        this.node.style.backgroundColor = '#fff';
+        document.getElementsByClassName('banner')[0].style.marginTop = '0';
       }
     });
   }

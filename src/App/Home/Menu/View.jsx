@@ -16,7 +16,7 @@ const MenuView = ({ setNode, goto }) => {
 	return (
 		<div ref={setNode} className="top-menu">
 			<div className="top-menu-left">
-        <img src={logo} height={48} alt="logo" />
+        <img src={logo} height={36} alt="logo" />
       </div>
 			<div className="top-menu-right">
 				<ul className="top-menu-right-content">
