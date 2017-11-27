@@ -1,6 +1,7 @@
 import React from 'react';
 
 import PriceTable from './PriceTable';
+import TimeTable from './TimeTable';
 import './styles.css';
 
 const getList = () => (
@@ -31,6 +32,7 @@ const PriceView = () => {
 	return (
 		<div className="price">
 			<PriceTable list={list} />
+      <TimeTable />
 		</div>
 	)
 };

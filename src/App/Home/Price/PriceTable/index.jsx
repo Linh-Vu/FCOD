@@ -1,8 +1,6 @@
 import T from 'prop-types';
 import React from 'react';
 
-import './styles.css';
-
 const PriceTable = ({ list }) => {
   return (
     <div>
