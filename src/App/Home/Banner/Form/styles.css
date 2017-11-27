@@ -62,6 +62,7 @@
   background-color: #fff;
   color: #43cb83;
   border: solid 2px #43cb83;
+  transition: background-color 0.2s;
 }
 
 .banner-right-form-direction {

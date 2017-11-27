@@ -23,9 +23,10 @@ class Menu extends React.Component {
 
   componentDidMount() {
     window.addEventListener('scroll', () => {
-      if (window.scrollY >= 42) {
+      if (window.scrollY > 42) {
         this.node.style.position = 'fixed';
         this.node.style.backgroundColor = '#323232';
+        this.node.style.transition = 'background-color 1s';
         this.node.style.top = 0;
         document.getElementsByClassName('banner')[0].style.marginTop = '54px';
       } else {

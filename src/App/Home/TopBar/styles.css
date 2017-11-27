@@ -44,10 +44,12 @@
 	flex-direction: row;
 	align-items: center;
 	background-color: #43cb83;
+  outline: none;
 	padding: 12px 30px;
 	height: 42px;
 	color: white;
 	border: none;
+  cursor: pointer;
 }
 
 .top-bar-button img {
