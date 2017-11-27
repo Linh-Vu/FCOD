@@ -8,24 +8,22 @@
 }
 
 .select-default {
-  width: 166px;
+  width: 190px;
   height: 26px;
   padding: 0 6px;
   background-color: #ffffff;
   border-width: 1px;
   border-style: solid;
-  border-color: #43cb83;
-  border-radius: 4px;
+  border-color: #eb7012;
   outline: none;
 }
 
 .select-main label {
-  font-weight: 500;
-  color: #43cb83;
+  font-weight: 600;
+  color: #eb7012;
 }
 
 .select-default:focus {
-  border-radius: 4px;
-  border: 1px solid #43cb83;
-  box-shadow: 0 0 10px #43cb83;
+  border: 1px solid #eb7012;
+  box-shadow: 0 0 10px #eb7012;
 }
