@@ -9,7 +9,7 @@ const BannerView = () => {
 			<div className="banner-content">
 				<div className="banner-content-left">
 					<div className="banner-content-left-content">
-						Free Cash On Delivery
+						<p>Free Cash On Delivery</p>
 					</div>
 				</div>
 
