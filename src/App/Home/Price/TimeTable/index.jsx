@@ -1,8 +1,9 @@
 import React from 'react';
+import './styles.css';
 
 const TimeTable = () => {
   return (
-    <div>
+    <div className="price-table-time">
       <div className="price-title">
         <h1>Quy định về thời gian giao hàng</h1>
         <hr/>
@@ -26,38 +27,31 @@ const TimeTable = () => {
             <td>8h-11h</td>
             <td>6h</td>
             <td>24h</td>
-            <td>36-48h</td>
+            <td>36 - 48h</td>
           </tr>
           <tr>
             <td className="row-title">Từ 10h-13h</td>
             <td>11h-14h</td>
             <td>6h</td>
             <td>24h</td>
-            <td>36-48h</td>
+            <td>36 - 48h</td>
           </tr>
           <tr>
             <td className="row-title">Từ 13h-16h</td>
             <td>14h-17h</td>
             <td>6h</td>
             <td>24h</td>
-            <td>36-48h</td>
+            <td>36 - 48h</td>
           </tr>
           <tr>
             <td className="row-title">Sau 16h</td>
-            <td>8h-11h<br/>ngày hôm sau</td>
+            <td>8h-11h<br/><span className="row-note">(ngày hôm sau)</span></td>
             <td>6h</td>
             <td>24h</td>
-            <td>36-48h</td>
+            <td>36 - 48h</td>
           </tr>
         </tbody>
       </table>
-      <div className="price-table-note">
-        <ul>
-          <h4>Lưu Ý:</h4>
-          <li>Nội thành phục vụ cả sáng Chủ Nhật</li>
-          <li>Ngoại thành , Huyện + 6h, Tuyến xã + 12h</li>
-        </ul>
-      </div>
     </div>
   )
 };

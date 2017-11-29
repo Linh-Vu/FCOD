@@ -1,0 +1,28 @@
+.price-table-time .price-title {
+  color: #ea7014;
+}
+
+.price-table-time .price-title hr {
+  background-color: #ea7014;
+}
+
+.price-table-time .price-table thead {
+  background-color: #ea7014;
+}
+
+.price-table-time .price-table thead th {
+  border: solid 1px #ffffff;
+}
+
+.price-table-time .price-table thead th:first-child {
+  border-left: solid 1px #ea7014;
+}
+
+.price-table-time .price-table thead th:last-child {
+  border-right: solid 1px #ea7014;
+}
+
+.price-table-time .price-table tbody tr,
+.price-table-time .price-table tbody td {
+  border: solid 1px #ea7014;
+}

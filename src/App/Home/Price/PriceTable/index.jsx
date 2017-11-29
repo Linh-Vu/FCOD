@@ -1,9 +1,10 @@
 import T from 'prop-types';
 import React from 'react';
+import './styles.css';
 
-const PriceTable = ({ list }) => {
+const PriceTable = () => {
   return (
-    <div>
+    <div className="price-table-bill">
       <div className="price-title">
         <h1>Biểu phí gửi từ Hà Nội đi các tỉnh</h1>
         <hr/>
@@ -71,10 +72,6 @@ const PriceTable = ({ list }) => {
       </table>
     </div>
   )
-};
-
-PriceTable.propTypes = {
-  list: T.arrayOf(T.shape({})).isRequired,
 };
 
 export default PriceTable;
