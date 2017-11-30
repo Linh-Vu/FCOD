@@ -1,57 +1,28 @@
-.price-table {
-  border-collapse: collapse;
-  width: 100%;
-  padding: 24px;
-}
-
-.price-table td,
-.price-table tr {
-  padding: 6px 12px;
-  border: 1px solid #43cb8345;
-  background-color: white;
-  color: #838383;
-
-}
-
-/** head table **/
-.price-table thead th {
-  text-align: center;
-  background-color: #43cb8326;
-  padding: 16px 0 !important;
-  color: #43cb83;
-  border: 1px solid #43cb8345;
-}
-
-.price-table tbody {
-  text-align: right;
-}
-
-.price-table tbody .title-left {
-  text-align: left;
-  font-weight: 500;
-  color: #43cb83;
-}
-
-.price-table tbody .content {
-  font-size: 14px;
-}
-
-.price-title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.price-title h1 {
-  text-align: center;
-  font-size: 30px;
+.price-table-bill .price-title {
   color: #306940;
 }
-.price-title hr {
-  height: 3px;
+
+.price-table-bill .price-title hr {
   background-color: #306940;
-  width: 90px;
-  border: none;
-  margin: 12px 0 36px 0;
 }
 
+.price-table-bill .price-table thead {
+  background-color: #306940;
+}
+
+.price-table-bill .price-table thead th {
+  border: solid 1px #ffffff;
+}
+
+.price-table-bill .price-table thead th:first-child {
+  border-left: solid 1px #306940;
+}
+
+.price-table-bill .price-table thead th:last-child {
+  border-right: solid 1px #306940;
+}
+
+.price-table-bill .price-table tbody tr,
+.price-table-bill .price-table tbody td {
+  border: solid 1px #306940;
+}

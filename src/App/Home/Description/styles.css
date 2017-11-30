@@ -1,8 +1,7 @@
 .description {
 	width: 100%;
 	height: 768px;
-	background-image: url("../image/background-des.jpg");
-	background-size: 100% 100%;
+	background-color: #eb7012;
 }
 
 .description-content {
@@ -18,18 +17,18 @@
 	height: 540px;
 	width: 60%;
 	margin-right: 32px;
-	background-image: url("../image/background-text.jpg");
-	background-size: 100% 100%;
+	background-color: #ffffff;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	color: #f8f6f9;
+	color: #377047;
+	border: solid 2px #377047;
 }
 
 .description-content-left hr {
 	border: none;
-	border-top: solid 3px #f8f6f9;
+	border-top: solid 3px #377047;
 	width: 15%;
 	margin-top: 12px;
 }
