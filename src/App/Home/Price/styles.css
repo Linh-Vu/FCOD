@@ -6,6 +6,7 @@
 .price-table {
   border-collapse: collapse;
   width: 100%;
+  color: #306940;
 }
 
 .price-table td {
@@ -23,7 +24,7 @@
 .price-table tbody .row-title {
   text-align: left;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .price-table tbody {
@@ -55,8 +56,9 @@
 }
 .price-table-note {
   margin-top: 42px;
-  color: #2d663d;
+  color: #306940;
   display: flex;
+  line-height: 24px;
 }
 .price-table-note ul {
   list-style-type: none;
@@ -69,6 +71,6 @@
 
 .row-note {
   font-size: 12px;
-  font-weight: lighter;
+  font-weight: 600;
   font-style: italic;
 }
