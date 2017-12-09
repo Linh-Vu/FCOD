@@ -1,8 +1,7 @@
 .banner {
   height: 642px;
-  background-image: url("./images/delivery2.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("./images/delivery.png");
+  background-size: 100% 100%;
 }
 
 .banner > .banner-content {
